@@ -55,7 +55,7 @@ input::placeholder {
     background-color: #2B3844;
 }
 
-a .country{
+a .country {
     width: 250px;
     height: 300px;
     background-color: #2B3844;
@@ -65,14 +65,70 @@ img {
     width: 100%;
 }
 
-h3{
+h3 {
     margin-left: 12px;
 }
 
-a{
+a {
     color: white;
     text-decoration: none;
 }
+
+main{
+    margin-top: 100px;
+}
+
+.a{
+    background-color: #2B3844;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-right: 100px;   
+}
+
+.germany-container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.germany-container img {
+    width: 410px;
+    height: 250px;
+}
+
+main .germany-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .info2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.more {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.more a{
+    background-color: #2B3844;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+
+.info2 {
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    gap: 80px;
+    color: gray;
+}
+
 
 @media (max-width: 600px) {
     form {
